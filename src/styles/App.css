@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  text-align: center
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu {
+}
+
+.menu > li {
+	position: relative;
+  display: inline-block;
+  padding: 10px;
+  width: 100px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.menu:nth-child(even) {
+  border-left: none;
+  border-right: none;
+}
+
+.menu > li:hover, .menu > li ul > li:hover {
+	background-color: #F5F5F5;
+}
+
+.menu > li ul {/* sub-menu */
+  position: absolute;
+  top: 39px;
+  left: 0px;
+  display: none;
+  text-align: center;
+  font-size: 0.9rem;
+  width: 100px;
+  list-style: none;
+}
+
+.menu > li:hover ul {
+  display: block;
+}
+
+.menu > li ul > li {
+  transition: 0.2s;
+  width: 100px;
+  padding: 10px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.menu > li ul > li a {
+  line-height: normal;
+  display: inline-block;
+  vertical-align: middle;
+}
