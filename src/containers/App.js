@@ -2,13 +2,15 @@ import React from 'react';
 import { Route, Link, NavLink } from 'react-router-dom'
 import Home from '../components/Home'
 
+import logo from '../images/Repbase.png'
+
 import "../styles/App.css"
 
 const App = () => (
   <div>
     <header>
       <div className="logo">
-        <Link to="/"><img src="" alt=" " height="300" width="600"/></Link>
+        <Link to="/"><img src={logo} alt="LOGO"/></Link>
       </div>
 
       <ul className="menu">
