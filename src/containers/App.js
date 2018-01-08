@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Link, NavLink } from 'react-router-dom'
+import Home from '../components/Home'
 
 import "../styles/App.css"
 
@@ -14,7 +15,7 @@ const App = () => (
         <li>
           <Link to="/rooms">Залы</Link>
           <ul>
-            <li><Link to="/rooms/english">Английский зал</Link></li>
+            <li><Link to="/rooms/english"><span>Английский зал</span></Link></li>
             <li><Link to="/rooms/big">Большой зал</Link></li>
             <li><Link to="/rooms/peavy">Peavy зал</Link></li>
           </ul>
@@ -29,7 +30,7 @@ const App = () => (
     </header>
 
     <main>
-      <Route exact path="/" />
+      <Route exact path="/" component={Home}/>
       <Route exact path="/rooms" />
       <Route exact path="/rooms/english" />
       <Route exact path="/rooms/big" />
