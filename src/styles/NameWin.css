@@ -1,0 +1,26 @@
+.btn {
+  padding: 5px;
+  transition: 0.2s;
+}
+
+.btn:focus, .name-block input:focus {
+}
+.name-block {
+	position: absolute;
+	left: 75%;
+	top: 220px;
+	max-width: 150px;
+	padding: 5px;
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+}
+
+.name-block input {
+	width: 120px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.name-block button {
+	font-size: 1.3rem;
+}

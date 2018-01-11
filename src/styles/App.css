@@ -4,15 +4,10 @@
 }
 
 body {
-  min-width: 432px;
-}
-div {
-  text-align: center
 }
 
-a {
-	text-decoration: none;
-	color: black;
+div {
+  text-align: center
 }
 
 header {
@@ -22,22 +17,29 @@ header {
 .logo {
   margin: 10px 0;
 }
+
 .menu {
+  width: 500px;
+  margin: auto;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+a, a:active, a:focus, a:hover {
+  text-decoration: none;
+  color: black;
 }
 
 .menu > li {
   transition: 0.2s;
 	position: relative;
   display: inline-block;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
 }
 
 .menu > li > a {
-
-  width: 100px;
+  font-size: 2rem;
   display: block;
-  padding: 10px;
+  padding: 15px 20px 15px 20px;
 }
 
 .menu:nth-child(even) {
@@ -51,11 +53,10 @@ header {
 
 .menu > li ul {/* sub-menu */
   position: absolute;
-  top: 39px;
+  top: 58px;
   left: 0px;
   display: none;
   text-align: center;
-  font-size: 0.9rem;
   list-style: none;
   background-color: #FFF;
 }
@@ -69,11 +70,14 @@ header {
   border-bottom: 1px solid black;
 }
 
+.menu > li ul > li:nth-child(1) {
+  border-top: 1px solid black;
+}
+
 .menu > li ul > li a {
   line-height: 30px;
   display: block;
-  height: 30px;
-  width: 100px;
+  width: 89.25px;
   padding: 10px;
 }
 
