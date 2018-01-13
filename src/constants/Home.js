@@ -1,0 +1,2 @@
+export const SET_NAME_REQUESTED = "Home/SET_NAME_REQUESTED"
+export const SET_NAME_SUCCESS = "Home/SET_NAME_SUCCESS"

@@ -6,12 +6,24 @@ import { connect } from 'react-redux'
 import '../styles/bootstrap.min.css'
 import '../styles/NameWin.css'
 
-export const NameWin = props => (
-  <div className="name-block">
-    <p>Ваше имя:</p>
-    <input type="text" placeholder="Имя"/>
-    <button className = "btn btn-default">Сохранить</button>
-  </div>
-)
+export const NameWin = props => {
+	if(props.isNameSet) {
+		return (
+			<div className="name-block">
+				Привет, {props.name}!
+			</div>
+		)
+	}
 
-export default NameWin;
+	return (
+	  <div className="name-block">
+		  <div>
+		    <p>Ваше имя:</p>
+		    <input type="text" placeholder="Имя" className="inputName"/><br/>
+		    <button className = "btn btn-default" onClick={()=>props.setName(document.querySelector(".inputName").value)}>Сохранить</button>
+		  </div>
+	  </div>
+	)
+}
+
+export default NameWin

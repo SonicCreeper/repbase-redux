@@ -7,7 +7,6 @@ import BigRoom from '../components/Rooms/BigRoom'
 import PeavyRoom from '../components/Rooms/PeavyRoom'
 import Schedule from '../components/Schedule'
 import Contacts from '../components/Contacts'
-import NameWin from '../components/NameWin'
 
 import logo from '../images/Repbase.png'
 
@@ -19,8 +18,6 @@ const App = () => (
       <div className="logo">
         <Link to="/"><img src={logo} alt="LOGO"/></Link>
       </div>
-
-      <NameWin />
 
       <ul className="menu">
         <li>
