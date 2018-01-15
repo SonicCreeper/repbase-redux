@@ -1,0 +1,43 @@
+.room-desc {
+	width: 1230px;
+	margin: auto;
+}
+
+.room-desc img {
+	float: left;
+	width: 600px;
+}
+
+.room-desc div {
+	display: inline-block;
+	width: 600px;
+	margin-left: 20px;
+}
+
+.room-desc h3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+	color: #666
+}
+
+.room-desc ul {
+	border-left: 3px solid #ccc;
+	background-color: #eee;
+	margin: auto;
+	text-align: left;
+	padding-left: 10px;
+	list-style: none;
+}
+
+.room-desc ul li {
+	margin-bottom: 5px;
+}
+
+.room-desc div > p {
+	display: block;
+	width: 600px;
+	margin: 10px auto;
+	text-align: justify;
+}
+

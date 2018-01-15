@@ -7,6 +7,36 @@ import { connect } from 'react-redux'
 const Schedule = props => (
   <div>
     <h1>Расписание</h1>
+
+    <table>
+	  <tr>
+	    <tc></tc>
+	    <tc></tc>
+	    <tc></tc>
+	    <tc></tc>
+	    <tc></tc>
+	    <tc></tc>
+	    <tc></tc>
+	  </tr>
+	  <tr>
+	    <tc></tc>
+	    <tc></tc>
+	    <tc></tc>
+	    <tc></tc>
+	    <tc></tc>
+	    <tc></tc>
+	    <tc></tc>
+	  </tr>
+	  <tr>
+	    <tc></tc>
+	    <tc></tc>
+	    <tc></tc>
+	    <tc></tc>
+	    <tc></tc>
+	    <tc></tc>
+	    <tc></tc>
+	  </tr>
+	</table>
   </div>
 )
 
