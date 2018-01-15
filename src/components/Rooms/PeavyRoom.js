@@ -12,13 +12,11 @@ const PeavyRoom = props => (
     <img src={mainPic} alt="Main pic" />
     <div>
     	<h3> Оборудование </h3>
-    	<ul>
-			  <li><p>PEAVEY 5150 Head + Гитарный кабинет RANDALL 4x12" 200Вт</p></li>
-			  <li><p>PEAVEY ValveKing 100 Head + Гитарный кабинет RANDALL 4x12" 200Вт</p></li>
-			  <li><p>PEAVEY Tour 450 BASS AMPLIFIER Басс кабинет Celestion 1x15'' мощность 400 Вт</p></li>
-			  <li><p>Барабанная установка PEARL TARGET</p></li>
-			  <li><p>Акустическая система Peavey / Crown</p></li>
-			</ul>
+    	<li><p>PEAVEY 5150 Head + Гитарный кабинет RANDALL 4x12" 200Вт</p></li>
+    	<li><p>PEAVEY ValveKing 100 Head + Гитарный кабинет RANDALL 4x12" 200Вт</p></li>
+    	<li><p>PEAVEY Tour 450 BASS AMPLIFIER Басс кабинет Celestion 1x15'' мощность 400 Вт</p></li>
+    	<li><p>Барабанная установка PEARL TARGET</p></li>
+    	<li><p>Акустическая система Peavey / Crown</p></li>
 			<p>
 				"Peavey зал" - трибьют известному американскому производителю ламповых усилителей ставшей за 
 				последние десятки лет уже легендой вошедшей в основу звучания многих выдающихся коллективов в 

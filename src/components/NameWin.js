@@ -1,7 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { bindActionCreators } from 'redux'
-import { connect } from 'react-redux'
 
 import '../styles/bootstrap.min.css'
 import '../styles/NameWin.css'

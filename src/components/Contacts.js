@@ -1,8 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { bindActionCreators } from 'redux'
-import { connect } from 'react-redux'
-
 
 export const Contacts = props => (
   <div>

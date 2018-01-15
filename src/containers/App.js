@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Link, NavLink } from 'react-router-dom'
+import { Route, Link } from 'react-router-dom'
 import Home from '../components/Home'
 import Rooms from '../components/Rooms.js'
 import EnglishRoom from '../components/Rooms/EnglishRoom'
@@ -47,8 +47,6 @@ const App = () => (
       <Route exact path="/contacts" component={Contacts}/>
     </main>
 
-    <footer>
-    </footer>
   </div>
 )
 
