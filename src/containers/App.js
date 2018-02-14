@@ -13,7 +13,7 @@ import logo from '../images/Repbase.png'
 import "../styles/App.css"
 
 const App = () => (
-  <div>
+  <div className="app">
     <header>
       <div className="logo">
         <Link to="/"><img src={logo} alt="LOGO"/></Link>
