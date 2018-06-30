@@ -1,3 +1,3 @@
-Little site on react-redux for training.
+Little site without content on react-redux for training.
 
-[Link](https://repbase-redux.herokuapp.com)
+[Link](https://repbase-redux.herokuapp.com) (First load might take a while)
